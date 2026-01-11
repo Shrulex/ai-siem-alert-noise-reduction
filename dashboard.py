@@ -120,12 +120,17 @@ if uploaded_file is not None:
                     metrics = result["metrics"]
                     c1, c2, c3, c4 = st.columns(4)
                     # ✅ CAMEL CASE (matches your backend)
-                    c1.metric("Total Alerts", metrics["totalalerts"])
-                    c2.metric("Suppressed", metrics["suppressed"])
-                    c3.metric("Reduction Rate", f"{metrics['reductionrate']:.1f}%")
-                    c4.metric("🏆 Best Model", metrics["topmodel"])
-                             
-                                
+                    reduction = metrics.get("reductionrate", metrics.get("reduction_rate", 0))
+                    total = metrics.get("totalalerts", metrics.get("total_alerts", 0))
+                    suppressed = metrics.get("suppressed", 0)
+                    top_model = metrics.get("topmodel", metrics.get("top_model", "N/A"))
+
+                    c1.metric("Total Alerts", total)
+                    c2.metric("Suppressed", suppressed)
+                    c3.metric("Reduction Rate", f"{reduction:.1f}%")
+                    c4.metric("🏆 Best Model", top_model)
+
+
                 # Risk scatter plot
                 fig = px.scatter(
                     result_df,
@@ -137,9 +142,9 @@ if uploaded_file is not None:
                     title="🎯 Alert Risk Analysis (Red=ESCALATE, Blue=SUPPRESS)"
                 )
                 st.plotly_chart(fig, use_container_width=True)
-                
-                st.success(f"🎉 {metrics['reduction_rate']:.1f}% noise reduced!")
-                
+
+                st.success(f"🎉 {reduction:.1f}% noise reduced!")
+                                
             except KeyError as e:
                 st.error(f"❌ Missing key: {e}")
                 st.info("Expected backend format confirmed by test_backend.py")
