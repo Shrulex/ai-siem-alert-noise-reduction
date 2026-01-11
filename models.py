@@ -81,7 +81,6 @@ class ModelSelector:
             'kmeans': KMeans(n_clusters=5, random_state=42, n_init=10),
             
             # 🔥 Simple + Rules
-            'knn': KNeighborsClassifier(n_neighbors=8),
             'rule_based': None  # Dynamic rules engine
         }
         

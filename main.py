@@ -61,9 +61,11 @@ async def analyze(alerts: List[Alert]):
     
     # 🔥 FIX 2: Use YOUR preprocessing (no duplicate)
     df = preprocess_alerts(df)
+
+    df['event_type_encoded'] = pd.Categorical(df['event_type']).codes
     
     # 🔥 Features (safe columns only)
-    feature_cols = ["severity", "frequency"]
+    feature_cols = ["severity", "frequency", "event_type_encoded"]  # ✅ 3 features
     available_cols = [col for col in feature_cols if col in df.columns]
     X = df[available_cols].fillna(1)
     
@@ -92,21 +94,24 @@ async def analyze(alerts: List[Alert]):
     
     # Actions
     conditions = [
-        (df['risk_score'] < 15),
-        (df['risk_score'] < 60)
+
+        df['risk_score'] < 15,
+        df['risk_score'] < 60,
+        True  # Add this line
     ]
-    choices = ["SUPPRESS", "INVESTIGATE", "ESCALATE"]
+    choices = ['SUPPRESS', 'INVESTIGATE', 'ESCALATE']
     df["action"] = np.select(conditions, choices, default="ESCALATE")
     
     # Metrics
     suppressed = len(df[df["action"] == "SUPPRESS"])
     metrics = {
-        "total_alerts": len(df),
+
+        "totalalerts": len(df),
         "suppressed": suppressed,
-        "reduction_rate": alert_reduction_rate(len(df), suppressed),
-        "avg_risk": round(float(df['risk_score'].mean()), 1),
-        "top_model": df['best_model'].value_counts().index[0]
-    }
+        "reductionrate": round((suppressed / len(df) * 100), 1),  # ✅ % DIRECT
+        "avgrisk": round(float(df['risk_score'].mean()), 1),
+        "topmodel": df['best_model'].value_counts().index[0]
+}
     
     # 🔥 SAFE response (string columns only)
     response_df = df[[
