@@ -141,10 +141,11 @@ if uploaded_file is not None:
                     hover_data=["event_type", "mitre_tactic", "best_model"],
                     title="🎯 Alert Risk Analysis (Red=ESCALATE, Blue=SUPPRESS)"
                 )
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width="stretch")
+
 
                 st.success(f"🎉 {reduction:.1f}% noise reduced!")
-                                
+
             except KeyError as e:
                 st.error(f"❌ Missing key: {e}")
                 st.info("Expected backend format confirmed by test_backend.py")
