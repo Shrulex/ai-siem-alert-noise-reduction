@@ -1,0 +1,201 @@
+event_type,severity,frequency,user,ip_address
+Phishing Email,1,27,charlie,192.168.232.146
+Port Scan,4,33,alice,192.168.186.57
+Phishing Email,4,32,charlie,192.168.184.243
+Login Failure,3,19,alice,192.168.69.114
+Malware,5,7,charlie,192.168.36.151
+Login Failure,3,15,alice,192.168.150.126
+Phishing Email,1,26,alice,192.168.45.79
+Login Failure,1,41,charlie,192.168.88.142
+Phishing Email,4,20,bob,192.168.160.35
+Phishing Email,4,37,charlie,192.168.36.83
+Login Failure,4,37,charlie,192.168.232.206
+Port Scan,2,25,bob,192.168.180.187
+Login Failure,5,41,charlie,192.168.72.234
+Login Failure,4,40,bob,192.168.105.15
+Phishing Email,3,24,charlie,192.168.52.131
+Login Failure,1,35,alice,192.168.161.238
+Port Scan,1,9,charlie,192.168.250.59
+Port Scan,5,7,bob,192.168.167.26
+Login Failure,2,2,charlie,192.168.12.18
+Malware,2,1,alice,192.168.205.83
+Phishing Email,1,42,charlie,192.168.166.86
+Port Scan,2,4,alice,192.168.152.150
+Login Failure,1,45,bob,192.168.191.108
+Login Failure,4,25,bob,192.168.156.76
+Port Scan,3,17,alice,192.168.134.216
+Malware,5,22,charlie,192.168.24.92
+Phishing Email,4,43,charlie,192.168.151.219
+Malware,3,22,charlie,192.168.234.171
+Port Scan,5,11,charlie,192.168.14.214
+Malware,3,36,charlie,192.168.38.186
+Phishing Email,5,13,bob,192.168.23.66
+Phishing Email,4,44,alice,192.168.121.11
+Login Failure,3,24,bob,192.168.69.206
+Phishing Email,4,10,charlie,192.168.49.179
+Login Failure,1,8,charlie,192.168.157.94
+Login Failure,4,12,alice,192.168.248.9
+Malware,1,29,alice,192.168.201.173
+Phishing Email,3,33,bob,192.168.10.11
+Phishing Email,1,45,bob,192.168.231.36
+Phishing Email,2,8,bob,192.168.41.149
+Malware,2,49,charlie,192.168.10.244
+Login Failure,2,18,bob,192.168.3.214
+Phishing Email,2,15,alice,192.168.51.58
+Malware,4,6,bob,192.168.76.233
+Malware,1,49,alice,192.168.214.15
+Phishing Email,5,23,bob,192.168.179.128
+Malware,2,47,alice,192.168.32.184
+Login Failure,1,48,bob,192.168.134.52
+Port Scan,2,17,bob,192.168.31.5
+Login Failure,1,23,bob,192.168.140.148
+Phishing Email,2,27,bob,192.168.116.50
+Phishing Email,3,42,charlie,192.168.17.250
+Login Failure,2,32,charlie,192.168.86.160
+Malware,2,5,charlie,192.168.203.191
+Login Failure,5,24,alice,192.168.135.12
+Login Failure,1,28,alice,192.168.81.82
+Port Scan,5,29,alice,192.168.107.241
+Port Scan,5,10,bob,192.168.83.32
+Phishing Email,4,33,bob,192.168.85.73
+Port Scan,2,50,bob,192.168.165.132
+Port Scan,3,7,charlie,192.168.90.141
+Port Scan,2,19,charlie,192.168.32.107
+Malware,5,14,bob,192.168.29.226
+Port Scan,5,15,bob,192.168.13.112
+Login Failure,1,24,charlie,192.168.36.83
+Login Failure,5,27,charlie,192.168.199.172
+Phishing Email,5,41,alice,192.168.9.5
+Phishing Email,3,3,alice,192.168.94.171
+Login Failure,5,37,alice,192.168.115.201
+Port Scan,1,42,bob,192.168.178.118
+Login Failure,3,6,bob,192.168.45.197
+Port Scan,5,38,bob,192.168.192.229
+Malware,3,8,bob,192.168.215.144
+Phishing Email,3,13,bob,192.168.251.234
+Malware,5,46,bob,192.168.25.189
+Login Failure,1,1,alice,192.168.100.88
+Port Scan,3,15,alice,192.168.69.126
+Port Scan,2,34,bob,192.168.13.52
+Login Failure,4,19,bob,192.168.214.16
+Malware,1,15,bob,192.168.32.17
+Login Failure,3,37,bob,192.168.17.225
+Port Scan,5,31,alice,192.168.55.32
+Login Failure,5,41,alice,192.168.115.229
+Malware,4,34,charlie,192.168.89.66
+Malware,4,48,alice,192.168.196.34
+Phishing Email,3,19,charlie,192.168.42.71
+Port Scan,5,3,alice,192.168.210.251
+Port Scan,2,39,alice,192.168.30.92
+Port Scan,4,42,bob,192.168.154.89
+Login Failure,5,7,alice,192.168.231.222
+Phishing Email,3,4,charlie,192.168.22.126
+Malware,3,17,charlie,192.168.98.130
+Port Scan,5,19,charlie,192.168.221.52
+Malware,4,12,alice,192.168.28.29
+Login Failure,1,22,alice,192.168.13.22
+Phishing Email,3,19,charlie,192.168.99.112
+Port Scan,4,19,charlie,192.168.252.53
+Login Failure,2,13,alice,192.168.94.94
+Malware,3,35,alice,192.168.39.11
+Malware,2,39,alice,192.168.53.48
+Port Scan,1,4,alice,192.168.252.57
+Login Failure,5,13,alice,192.168.142.106
+Malware,3,26,alice,192.168.236.191
+Phishing Email,2,6,alice,192.168.10.78
+Malware,4,31,alice,192.168.35.88
+Port Scan,3,26,bob,192.168.47.226
+Malware,2,25,alice,192.168.213.224
+Login Failure,4,34,alice,192.168.125.101
+Phishing Email,2,7,charlie,192.168.230.237
+Login Failure,4,28,charlie,192.168.195.217
+Phishing Email,1,41,alice,192.168.81.64
+Login Failure,3,5,alice,192.168.23.39
+Phishing Email,4,19,bob,192.168.18.190
+Login Failure,5,27,charlie,192.168.232.145
+Phishing Email,5,25,bob,192.168.232.249
+Malware,4,40,charlie,192.168.105.4
+Login Failure,5,7,alice,192.168.71.41
+Login Failure,2,37,bob,192.168.59.1
+Malware,5,6,bob,192.168.51.214
+Phishing Email,1,7,alice,192.168.175.72
+Port Scan,3,7,bob,192.168.171.243
+Login Failure,2,4,alice,192.168.136.163
+Port Scan,1,31,alice,192.168.55.54
+Port Scan,4,30,charlie,192.168.245.141
+Port Scan,3,15,charlie,192.168.199.225
+Login Failure,1,20,alice,192.168.97.138
+Malware,3,17,bob,192.168.193.96
+Malware,4,40,charlie,192.168.56.207
+Phishing Email,5,36,bob,192.168.132.169
+Port Scan,4,38,charlie,192.168.200.73
+Login Failure,5,7,bob,192.168.203.51
+Phishing Email,1,22,charlie,192.168.158.146
+Phishing Email,2,1,bob,192.168.255.27
+Port Scan,1,29,charlie,192.168.80.89
+Login Failure,2,23,bob,192.168.248.180
+Malware,2,11,charlie,192.168.166.203
+Port Scan,3,11,alice,192.168.236.109
+Phishing Email,2,37,bob,192.168.24.245
+Phishing Email,4,6,bob,192.168.32.214
+Port Scan,1,40,bob,192.168.140.110
+Phishing Email,5,24,alice,192.168.13.66
+Port Scan,5,15,charlie,192.168.1.51
+Login Failure,2,38,bob,192.168.230.168
+Malware,1,14,alice,192.168.102.164
+Phishing Email,2,33,charlie,192.168.188.202
+Malware,1,23,bob,192.168.7.202
+Phishing Email,3,9,bob,192.168.216.24
+Port Scan,2,47,alice,192.168.144.89
+Malware,2,32,bob,192.168.41.150
+Malware,3,49,bob,192.168.37.47
+Malware,1,5,charlie,192.168.252.115
+Phishing Email,1,28,charlie,192.168.4.254
+Phishing Email,3,38,bob,192.168.79.165
+Phishing Email,1,50,charlie,192.168.169.10
+Phishing Email,4,17,charlie,192.168.67.52
+Login Failure,3,45,bob,192.168.200.54
+Port Scan,3,9,alice,192.168.243.1
+Phishing Email,1,16,alice,192.168.250.249
+Port Scan,4,26,alice,192.168.238.247
+Phishing Email,5,49,bob,192.168.202.239
+Malware,4,17,charlie,192.168.187.20
+Phishing Email,5,13,bob,192.168.182.139
+Login Failure,2,20,charlie,192.168.171.241
+Port Scan,4,47,alice,192.168.65.17
+Phishing Email,3,23,alice,192.168.56.105
+Port Scan,5,5,charlie,192.168.3.143
+Port Scan,4,36,alice,192.168.248.125
+Login Failure,1,17,charlie,192.168.111.123
+Login Failure,3,10,bob,192.168.190.4
+Malware,5,27,alice,192.168.54.72
+Phishing Email,2,9,alice,192.168.51.74
+Port Scan,3,23,charlie,192.168.53.180
+Port Scan,3,37,alice,192.168.189.221
+Malware,3,24,charlie,192.168.64.30
+Login Failure,1,3,charlie,192.168.147.183
+Port Scan,3,3,alice,192.168.75.23
+Malware,5,10,alice,192.168.107.223
+Login Failure,5,12,charlie,192.168.75.53
+Malware,1,6,bob,192.168.163.58
+Malware,1,37,bob,192.168.81.171
+Login Failure,1,43,bob,192.168.67.222
+Malware,1,16,bob,192.168.218.168
+Phishing Email,5,49,alice,192.168.18.222
+Login Failure,5,25,alice,192.168.73.62
+Login Failure,3,32,alice,192.168.95.227
+Port Scan,3,38,bob,192.168.33.27
+Login Failure,3,6,bob,192.168.178.24
+Port Scan,3,33,bob,192.168.39.7
+Malware,2,20,bob,192.168.107.118
+Malware,5,50,alice,192.168.249.208
+Phishing Email,4,27,alice,192.168.212.141
+Port Scan,3,32,alice,192.168.228.155
+Malware,4,14,alice,192.168.85.161
+Login Failure,2,47,charlie,192.168.111.245
+Malware,3,19,bob,192.168.64.83
+Phishing Email,5,21,bob,192.168.125.216
+Port Scan,5,38,bob,192.168.93.137
+Phishing Email,3,36,bob,192.168.186.83
+Login Failure,1,4,alice,192.168.48.250
+Phishing Email,3,16,bob,192.168.22.130
